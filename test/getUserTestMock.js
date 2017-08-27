@@ -4,7 +4,7 @@ const nock = require('nock');
 const getUser = require('./../src/getUser').getUser;
 
 //mock data
-const response = require('./../mocks/getUserResponse');
+const response = require('./../resources/mocks/getUserResponse');
 
 describe('Get User tests', () => {
     
@@ -15,7 +15,7 @@ describe('Get User tests', () => {
             .reply(200, response);
     });
 
-    it('Get a user by username', () => {
+    it('Get a user by username with Mock', () => {
         return getUser('iklymchuk')
             .then(response => {
 

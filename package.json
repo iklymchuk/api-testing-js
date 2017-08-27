@@ -4,7 +4,8 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha",
+    "dev" : "lite-server"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "chai": "^4.1.1",
     "mocha": "^3.5.0",
-    "nock": "^9.0.14"
+    "nock": "^9.0.14",
+    "lite-server": "^2.3.0"
   }
 }

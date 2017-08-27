@@ -1,0 +1,6 @@
+{
+    "port": 2323,
+    "server" : { "baseDir" : "./src" },
+    "https" : false,
+    "browser" : ["chrome", "firefox"]
+}
